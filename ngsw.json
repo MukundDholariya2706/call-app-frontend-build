@@ -1,0 +1,112 @@
+{
+  "configVersion": 1,
+  "timestamp": 1705918775895,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/168.57d8a2ff2211730d.js",
+        "/382.af1e58495e029575.js",
+        "/386.f325a9f320d5559c.js",
+        "/56.ea5675d066acfd09.js",
+        "/826.09924d3f5f079d3f.js",
+        "/favicon.ico",
+        "/index.html",
+        "/main.558069619447a7ff.js",
+        "/manifest.webmanifest",
+        "/polyfills.c1942b3d69fbc1a2.js",
+        "/runtime.06d727b761764ef6.js",
+        "/scripts.356e312b357617b5.js",
+        "/styles.8adee68c3bd42089.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/chat_icon.svg",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/logo.svg"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "allusers",
+      "patterns": [
+        "http:\\/\\/localhost:3001\\/user\\/allusers"
+      ],
+      "strategy": "freshness",
+      "maxSize": 20,
+      "maxAge": 3600000,
+      "timeoutMs": 5000,
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "version": 1
+    }
+  ],
+  "hashTable": {
+    "/168.57d8a2ff2211730d.js": "2c47f305102c19b90e63b68e113cc93b35dcfbed",
+    "/382.af1e58495e029575.js": "565ac28d7604d6b6a6f59864a5c7d5adf34e79a5",
+    "/386.f325a9f320d5559c.js": "976bff8269a31a0745e83d300a0540c3e6f56012",
+    "/56.ea5675d066acfd09.js": "df048e786912ea3c04bf79cdaa0d7fa137aad1c7",
+    "/826.09924d3f5f079d3f.js": "82fa79be82275bdcc4d40efae9c774a89f3cd3ec",
+    "/assets/chat_icon.svg": "ccbef81ce4f722cde0900237998aada18c85d00e",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/logo.svg": "c8cdd9a808fa487a683b252d5e5d6b8a4054ce9b",
+    "/favicon.ico": "705b0d707320f89890035646568f19187004d3db",
+    "/index.html": "a36eca9913a311eacc72bf50333e2a0011d1b277",
+    "/main.558069619447a7ff.js": "0424db0eb8609ed895519411198714f694ac0dc2",
+    "/manifest.webmanifest": "480b1f4a4bd08b7e530735b0926402a77342dc28",
+    "/polyfills.c1942b3d69fbc1a2.js": "afa5d3e6f927a5554e0464887de09093d019cb36",
+    "/runtime.06d727b761764ef6.js": "0fc0195c87e2eb26b5cbe20cb225d8728e3e28fd",
+    "/scripts.356e312b357617b5.js": "d2d7e4be2c866104c8a6a2f9e1e12e8031435268",
+    "/styles.8adee68c3bd42089.css": "de8d3097d0c6a5328765b193f769631513f1f0d1"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
