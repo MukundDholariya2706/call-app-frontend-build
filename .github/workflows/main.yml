@@ -1,0 +1,14 @@
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  print:
+    name: print new build is upload
+    runs-on: ubuntu-latest
+    steps:
+      - name: print new build is uploaded
+      - run: echo "new build is uploaded"
