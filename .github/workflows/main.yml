@@ -11,4 +11,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print new build is uploaded
-      - run: echo "new build is uploaded"
+        run: echo "new build is uploaded"
